@@ -1,0 +1,27 @@
+#part1{
+    background-image: url("fundo.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.branco{
+    color: #fff;
+}
+
+.titulo{
+    color: #fff;
+}
+
+/* Estilo base */
+#galeria .card {
+    transition: transform 0.5s;
+    border: 2px solid #000; 
+  border-radius: 8px;
+  }
+  
+  /* Animação ao passar o mouse */
+  #galeria .card:hover {
+    transform: translateY(-10px);
+
+  }
+  
